@@ -10,7 +10,7 @@ cursor = conn.cursor()
 
 
 def submit():
-    conn = pz.connect(host='localhost', database='Pizza', user='root', password='Gloire1963')
+    conn = pz.connect(host='localhost', database='Pizza', user='root', password='root')
     c = conn.cursor()
     c.execute("INSERT INTO client (name, address, telephone) VALUES (%s, %s, %s)", (nameEnter.get(), addressEnter.get(), telephoneEnter.get()))
 
