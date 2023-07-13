@@ -26,7 +26,7 @@ def submit():
 
 
 def query():
-    conn = pz.connect(host='localhost', database='Pizza', user='root', password='Gloire1963')
+    conn = pz.connect(host='localhost', database='Pizza', user='root', password='********')
     c = conn.cursor()
     c.execute("SELECT * FROM client")
     records = c.fetchall()
@@ -38,7 +38,7 @@ def query():
 
 
 def delete():
-    conn = pz.connect(host='localhost', database='Pizza', user='root', password='Gloire1963')
+    conn = pz.connect(host='localhost', database='Pizza', user='root', password='********')
     c = conn.cursor()
     c.execute("DELETE FROM client")
 
