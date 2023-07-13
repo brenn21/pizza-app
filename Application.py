@@ -5,7 +5,7 @@ from tkinter import Label
 
 import mysql.connector as pz
 
-conn = pz.connect(host='localhost', database='Pizza', user='root', password='Gloire1963')
+conn = pz.connect(host='localhost', database='Pizza', user='root', password='********')
 cursor = conn.cursor()
 
 
